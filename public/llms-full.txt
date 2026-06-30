@@ -2,13 +2,13 @@
 
 A fun and vibrant class website designed for school students, featuring a humorous class stories blog, a light news and updates section, a class events calendar, and a creative 'class awards' page (e.g., 'funniest student') with a placeholder for future polls. The site has a playful, youthful personality with a mobile-first approach and colorful design that reflects the energy and humor of a classroom community.
 
-Source: https://5-5af81c99.zappy5.app
+Source: https://example.com
 
 ---
 
 ## היכנסו לעולם הכי מצחיק של כיתה — כיתה בהפרעה 5
 
-URL: https://5-5af81c99.zappy5.app
+URL: https://example.com
 Description: גלו אתר כיתתי קורע מצחוק עם סיפורים מהכיתה, לוח אירועים ופרסי תלמידים יצירתיים כמו &#39;המצחיקן של החודש&#39;. מקום מפגש דיגיטלי לחברים שאוהבים לצחוק ולהתעדכן בכל מה שקורה אצלנו בכיתה.
 
 היכנסו לעולם הכי מצחיק של כיתה — כיתה בהפרעה 5
@@ -727,7 +727,7 @@ Description: גלו אתר כיתתי קורע מצחוק עם סיפורים מ
 
 ## מדיניות פרטיות
 
-URL: https://5-5af81c99.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -994,7 +994,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://5-5af81c99.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1270,7 +1270,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://5-5af81c99.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1565,7 +1565,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה רבה - כיתה בהפרעה 5
 
-URL: https://5-5af81c99.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: כיתה בהפרעה 5 - תודה רבה - כיתה בהפרעה 5
 
 תודה רבה - כיתה בהפרעה 5

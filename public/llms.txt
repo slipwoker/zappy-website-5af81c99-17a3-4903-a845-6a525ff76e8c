@@ -7,25 +7,25 @@
 ## Pages
 
 ### בית
-https://5-5af81c99.zappy5.app
+https://example.com
 גלו אתר כיתתי קורע מצחוק עם סיפורים מהכיתה, לוח אירועים ופרסי תלמידים יצירתיים כמו &#39;המצחיקן של החודש&#39;. מקום מפגש דיגיטלי לחברים שאוהבים לצחוק ולהתעדכן בכל מה שקורה אצלנו בכיתה.
 
 ### תודה רבה - כיתה בהפרעה 5
-https://5-5af81c99.zappy5.app/thank-you
+https://example.com/thank-you
 כיתה בהפרעה 5 - תודה רבה - כיתה בהפרעה 5
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://5-5af81c99.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://5-5af81c99.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://5-5af81c99.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -35,8 +35,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://5-5af81c99.zappy5.app
-- Endpoint: https://5-5af81c99.zappy5.app/api/email/contact-form
+- URL: https://example.com
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -65,6 +65,6 @@ Education
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://5-5af81c99.zappy5.app/sitemap.xml
-- Robots: https://5-5af81c99.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://5-5af81c99.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
