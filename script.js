@@ -1286,6 +1286,51 @@ window.onload = function() {
     }
 })();
 
+/* ZAPPY_CUSTOM_JS_START:da2531e0ba89 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+// Poll submission handler for spotlight section
+(function() {
+  var pollForm = document.querySelector('.index-spotlight-section__poll-form[data-poll="funniest"]');
+  if (!pollForm) return;
+
+  pollForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    var selected = pollForm.querySelector('input[name="funniest-vote"]:checked');
+    if (!selected) {
+      var btn = pollForm.querySelector('.index-spotlight-section__poll-submit');
+      var origText = btn.textContent;
+      btn.textContent = '⚠️ בחר/י מועמד/ת קודם!';
+      btn.style.background = '#ff4444';
+      btn.style.color = '#fff';
+      setTimeout(function() {
+        btn.textContent = origText;
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 1800);
+      return;
+    }
+
+    var chosenName = selected.closest('.index-spotlight-section__poll-option').querySelector('.index-spotlight-section__poll-name').textContent;
+    var container = pollForm.closest('.index-spotlight-section__poll--active');
+    
+    container.innerHTML = '<div class="index-spotlight-section__poll-thanks">🎉 תודה על ההצבעה!<br>הצבעת ל-' + chosenName + '</div>';
+  });
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:da2531e0ba89 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
