@@ -1,0 +1,70 @@
+# כיתה בהפרעה 5 — Generative Engine Optimization Map
+
+> A fun and vibrant class website designed for school students, featuring a humorous class stories blog, a light news and updates section, a class events calendar, and a creative 'class awards' page (e.g., 'funniest student') with a placeholder for future polls. The site has a playful, youthful personality with a mobile-first approach and colorful design that reflects the energy and humor of a classroom community.
+
+---
+
+## Pages
+
+### בית
+https://5-5af81c99.zappy5.app
+גלו אתר כיתתי קורע מצחוק עם סיפורים מהכיתה, לוח אירועים ופרסי תלמידים יצירתיים כמו &#39;המצחיקן של החודש&#39;. מקום מפגש דיגיטלי לחברים שאוהבים לצחוק ולהתעדכן בכל מה שקורה אצלנו בכיתה.
+
+### תודה רבה - כיתה בהפרעה 5
+https://5-5af81c99.zappy5.app/thank-you
+כיתה בהפרעה 5 - תודה רבה - כיתה בהפרעה 5
+
+## Legal & Policy
+
+### Privacy Policy
+https://5-5af81c99.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://5-5af81c99.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://5-5af81c99.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://5-5af81c99.zappy5.app
+- Endpoint: https://5-5af81c99.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About כיתה בהפרעה 5
+A fun and vibrant class website designed for school students, featuring a humorous class stories blog, a light news and updates section, a class events calendar, and a creative 'class awards' page (e.g., 'funniest student') with a placeholder for future polls. The site has a playful, youthful personality with a mobile-first approach and colorful design that reflects the energy and humor of a classroom community.
+
+## Target Audience
+- תלמידי כיתה ובני נוער
+- חברים של ילדי הכיתה
+- חברים מכיתות אחרות
+
+## Industry
+Education
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://5-5af81c99.zappy5.app/sitemap.xml
+- Robots: https://5-5af81c99.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://5-5af81c99.zappy5.app/llms-full.txt
