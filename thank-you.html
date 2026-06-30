@@ -732,16 +732,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0553063555" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -1198,7 +1198,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0553063555';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1227,15 +1227,15 @@
   <div class="s-5-hero-decorations" aria-hidden="true">
     <!-- Neon Crown -->
     <svg class="s-5-deco-crown" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M20 90 L40 30 L60 60 L80 30 L100 90" stroke="#FFD700" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow-gold)"/>
-      <circle cx="60" cy="95" r="8" stroke="#FFD700" stroke-width="2" filter="url(#glow-gold)"/>
+      <path d="M20 90 L40 30 L60 60 L80 30 L100 90" stroke="#FFD700" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow-gold)"></path>
+      <circle cx="60" cy="95" r="8" stroke="#FFD700" stroke-width="2" filter="url(#glow-gold)"></circle>
       <defs>
         <filter id="glow-gold" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur stdDeviation="4" result="blur"/>
+          <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
           <feMerge>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="blur"></feMergeNode>
+            <feMergeNode in="blur"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
           </feMerge>
         </filter>
       </defs>
@@ -1243,14 +1243,14 @@
 
     <!-- Neon Lightning Bolt -->
     <svg class="s-5-deco-lightning" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M50 5 L25 45 L45 45 L30 75 L65 35 L45 35 Z" fill="#00D4FF" filter="url(#glow-cyan)" opacity="0.9"/>
+      <path d="M50 5 L25 45 L45 45 L30 75 L65 35 L45 35 Z" fill="#00D4FF" filter="url(#glow-cyan)" opacity="0.9"></path>
       <defs>
         <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur stdDeviation="5" result="blur"/>
+          <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
           <feMerge>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="blur"></feMergeNode>
+            <feMergeNode in="blur"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
           </feMerge>
         </filter>
       </defs>
@@ -1258,17 +1258,17 @@
 
     <!-- Neon Clock -->
     <svg class="s-5-deco-clock" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="50" cy="50" r="40" stroke="#FF3EA5" stroke-width="3" filter="url(#glow-pink)"/>
-      <path d="M50 50 L50 25" stroke="#FF3EA5" stroke-width="4" stroke-linecap="round" filter="url(#glow-pink)"/>
-      <path d="M50 50 L65 55" stroke="#FF3EA5" stroke-width="4" stroke-linecap="round" filter="url(#glow-pink)"/>
-      <circle cx="50" cy="50" r="5" fill="#FF3EA5" filter="url(#glow-pink)"/>
+      <circle cx="50" cy="50" r="40" stroke="#FF3EA5" stroke-width="3" filter="url(#glow-pink)"></circle>
+      <path d="M50 50 L50 25" stroke="#FF3EA5" stroke-width="4" stroke-linecap="round" filter="url(#glow-pink)"></path>
+      <path d="M50 50 L65 55" stroke="#FF3EA5" stroke-width="4" stroke-linecap="round" filter="url(#glow-pink)"></path>
+      <circle cx="50" cy="50" r="5" fill="#FF3EA5" filter="url(#glow-pink)"></circle>
       <defs>
         <filter id="glow-pink" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur stdDeviation="3" result="blur"/>
+          <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
           <feMerge>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="blur"></feMergeNode>
+            <feMergeNode in="blur"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
           </feMerge>
         </filter>
       </defs>
@@ -1281,7 +1281,7 @@
     <div class="s-5-success-icon-wrapper">
       <div class="s-5-success-icon-circle">
         <svg data-element-type="icon" data-icon-type="svg" class="s-5-success-check" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M8 22 L16 30 L32 12" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8 22 L16 30 L32 12" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
       </div>
     </div>
@@ -1314,7 +1314,7 @@
   <!-- Bottom Fade Transition -->
   <div class="s-5-hero-divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,40 Q50,35 100,42 T200,38 Q250,42 300,35 T400,40 Q450,38 500,42 T600,35 Q650,40 700,38 T800,42 Q850,35 900,40 T1000,38 Q1050,42 1100,35 T1200,40 L1200,80 Z" fill="#0A0A12"/>
+      <path d="M0,80 L0,40 Q50,35 100,42 T200,38 Q250,42 300,35 T400,40 Q450,38 500,42 T600,35 Q650,40 700,38 T800,42 Q850,35 900,40 T1000,38 Q1050,42 1100,35 T1200,40 L1200,80 Z" fill="#0A0A12"></path>
     </svg>
   </div>
 </section></main>
@@ -1347,25 +1347,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:omri.strulov@gmail.com">omri.strulov@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0553063555">0553063555</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%97%D7%95%D7%A8%D7%91%2C%20%D7%97%D7%99%D7%A4%D7%94%2C%20%D7%97%D7%99%D7%9D%D7%94%2C%2012345%2C%20%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">חורב, חיפה, חיםה, 12345,  ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1392,7 +1390,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0553063555" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
